@@ -83,6 +83,10 @@ class Slack extends Adapter
 
         # Pass to the robot
         console.log "Received #{hubot_msg} from #{author}"
+        console.log "author.id #{from}"
+        console.log "author.name #{from_name}"
+        console.log "author.reply_to #{channel}"
+        console.log "author.room #{channel_name}"
         self.receive new TextMessage(author, hubot_msg)
 
       # Just send back an empty reply, since our actual reply,
