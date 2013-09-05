@@ -26,11 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/tinyspeck/hubot-slack.git"
+    "url": "http://github.com/mriddle/hubot-slack.git"
   },
   "bugs": {
-    "url": "https://github.com/tinyspeck/hubot-slack/issues",
-    "email": "help@tinyspeck.com"
+    "url": "https://github.com/mriddle/hubot-slack/issues"
   },
   "devDependencies": {
     "coffee-script": ">=1.2.0"
